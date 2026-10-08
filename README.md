@@ -2,10 +2,10 @@
 
 **Česky** · [English below](#english)
 
-## Postavím vám web, e-shop nebo aplikaci. A napojím je tak, aby se nic nepřepisovalo ručně.
+## Web, e-shop, appka pro zaměstnance i automaty. Postavím, propojím a udržím v chodu.
 
 Ve dvou rodinných firmách s pracovními oděvy a obuví (prodejna s e-shopem a velkoobchod) mám na starosti celý provoz.
-Weby, e-shop, aplikace i automaty, na kterých firmy denně běží, jsem postavil sám. Víc na [jaroslavvelek.cz](https://jaroslavvelek.cz).
+Všechno, na čem firmy denně běží, jsem postavil sám: od webu přes rozpis směn v telefonu zaměstnanců až po faktury, které se naskladní samy. Víc na [jaroslavvelek.cz](https://jaroslavvelek.cz).
 
 **→ Napište mi, co potřebujete: [jaravelin@gmail.com](mailto:jaravelin@gmail.com?subject=Popt%C3%A1vka%3A%20web%2C%20aplikace%20nebo%20automatizace)**
 Do 2 pracovních dnů odpovím, jestli to jde a zhruba za kolik.
@@ -16,9 +16,22 @@ Do 2 pracovních dnů odpovím, jestli to jde a zhruba za kolik.
 |:-:|:-:|:-:|:-:|
 | naskladněných automaticky, bez ručního zásahu | které nikdo nepřepisoval, zhruba 75–150 hodin práce | u 15 dodavatelů připravených automaticky | nového zboží založených v pokladně programem |
 
-**Co pro vás postavím:** automatizace a napojení systémů (faktury, objednávky, sklad, dopravci, platby) · weby a e-shopy napojené na sklad · aplikace na míru pro telefon i počítač.
+**Všechno, co malá firma potřebuje, napojené dohromady:** appka pro firmu a zaměstnance (směny, výměny, docházka, podklady pro účetního) · weby a e-shopy napojené na sklad · automatizace (faktury, objednávky, dopravci, platby) · aplikace na míru.
 
 ---
+
+### Rozpis směn pořád na papíře a v Excelu?
+
+Appka navrhne rozpis na týden podle rolí a otevírací doby. Zaměstnanci ho mají v telefonu a směnu si mezi sebou vymění
+sami: jeden navrhne, druhý přijme a oba dostanou upozornění. Rozpis se jedním klikem převede do docházky a z ní vzniknou
+výplatní pásky a podklady pro účetního.
+
+![Ukázka: plánovač navrhne směny na týden a převede je do docházky](img/smeny.gif)
+
+<img src="img/mzdy-vyplaty.png" width="70%" alt="Přehled výplat za měsíc">
+
+Na snímcích je ukázková verze s vymyšlenou firmou. [Ukázka kódu: payroll-shift-planner](https://github.com/jaravelin-dot/payroll-shift-planner)
+
 
 ### Přepisujete faktury od dodavatelů do pokladny?
 
@@ -68,16 +81,6 @@ Zeptá se telefonu, dostane sklad, cenu i stav objednávky a rovnou vytiskne cen
 
 [Ukázka kódu: store-assistant-bot](https://github.com/jaravelin-dot/store-assistant-bot)
 
-### Mzdy a směny v Excelu?
-
-Výplaty podle českých zákonů, výplatní pásky, podklady pro účetní a rozpis směn, který se jedním klikem převede do docházky.
-
-![Ukázka: plánovač navrhne směny na týden a převede je do docházky](img/smeny.gif)
-
-<img src="img/mzdy-vyplaty.png" width="70%" alt="Přehled výplat za měsíc">
-
-Na snímcích je ukázková verze s vymyšlenou firmou. [Ukázka kódu: payroll-shift-planner](https://github.com/jaravelin-dot/payroll-shift-planner)
-
 ### Máte nápad na vlastní aplikaci?
 
 AJ trenér je moje aplikace na trénink anglické výslovnosti. Hodnotí výslovnost po jednotlivých hláskách, skládá denní lekce
@@ -103,10 +106,10 @@ Každé repo je spustitelná ukázka nad vymyšlenými daty; ostrý kód a data 
 
 <a id="english"></a>
 
-## English · I build websites, online shops and apps, and wire them up so nobody retypes data by hand.
+## English · Websites, online shops, staff apps and automation. I build it, connect it and keep it running.
 
 I run the operations of two family businesses in workwear and safety footwear (a retail store with an online shop and a
-wholesale company). I built the websites, the online shop, the apps and the automation they run on every day.
+wholesale company). I built everything they run on every day: from the website to the shift schedule on staff phones to invoices that put goods into stock by themselves.
 More at [jaroslavvelek.cz/en](https://jaroslavvelek.cz/en/).
 
 **→ Tell me what you need: [jaravelin@gmail.com](mailto:jaravelin@gmail.com?subject=Project%20enquiry)** — I'll reply
@@ -120,12 +123,12 @@ within 2 business days with whether it can be done and a rough price. Also open 
 
 | Problem | What I built | Code |
 |---|---|---|
+| Shift schedule on paper and in spreadsheets | A staff app: weekly schedule on phones, shift swaps with notifications, attendance, payslips and accountant exports | [payroll-shift-planner](https://github.com/jaravelin-dot/payroll-shift-planner) |
 | Retyping supplier invoices into the POS (30–60 min each) | E-mail → PDF/ISDOC parsing → EAN & catalogue matching → stock in the POS, unclear lines go to review | [invoice-to-stock](https://github.com/jaravelin-dot/invoice-to-stock) |
 | Reordering from suppliers size by size | Stock & sales decide what to reorder; a browser robot fills the carts on supplier B2B portals; a human approves | [supplier-order-automation](https://github.com/jaravelin-dot/supplier-order-automation) |
 | An online shop that doesn't know your stock | [www.monterky.eu](https://www.monterky.eu) — WooCommerce wired to POS, stock, carriers, payments, price comparison, with an AI product advisor | [woocommerce-store-showcase](https://github.com/jaravelin-dot/woocommerce-store-showcase) |
 | A company website that shows what you sell | [agatex-max.cz](https://agatex-max.cz) — a store website with a 964-model catalogue generated from product data | — |
 | Staff running to the stockroom | A phone assistant for stock, prices and order status, with price-tag printing | [store-assistant-bot](https://github.com/jaravelin-dot/store-assistant-bot) |
-| Payroll and shifts in spreadsheets | Czech payroll, payslips, accountant exports, a shift planner that turns into attendance | [payroll-shift-planner](https://github.com/jaravelin-dot/payroll-shift-planner) |
 | An idea for your own app | [AJ trenér](https://aj-trener.vercel.app) — a pronunciation trainer that scores every sound and holds voice conversations with AI | — |
 
 **Stack:** Python, PHP/WooCommerce, TypeScript, React, Cloudflare Workers + D1, Playwright, Claude API, SQLite, POS & carrier REST APIs.
