@@ -2,10 +2,10 @@
 
 **Česky** · [English below](#english)
 
-## Web, e-shop, appka pro zaměstnance i automaty. Postavím, propojím a udržím v chodu.
+## Web, e-shop, aplikace i automaty. Postavím, propojím a udržím v chodu.
 
 Ve dvou rodinných firmách s pracovními oděvy a obuví (prodejna s e-shopem a velkoobchod) mám na starosti celý provoz.
-Všechno, na čem firmy denně běží, jsem postavil sám: od webu přes rozpis směn v telefonu zaměstnanců až po faktury, které se naskladní samy. Víc na [jaroslavvelek.cz](https://jaroslavvelek.cz).
+Všechno, na čem firmy denně běží, jsem postavil sám: od webu přes aplikace pro zaměstnance až po faktury, které se naskladní samy. Víc na [jaroslavvelek.cz](https://jaroslavvelek.cz).
 
 **→ Napište mi, co potřebujete: [jaravelin@gmail.com](mailto:jaravelin@gmail.com?subject=Popt%C3%A1vka%3A%20web%2C%20aplikace%20nebo%20automatizace)**
 Do 2 pracovních dnů odpovím, jestli to jde a zhruba za kolik.
@@ -16,7 +16,7 @@ Do 2 pracovních dnů odpovím, jestli to jde a zhruba za kolik.
 |:-:|:-:|:-:|:-:|
 | naskladněných automaticky, bez ručního zásahu | které nikdo nepřepisoval, zhruba 75–150 hodin práce | u 15 dodavatelů připravených automaticky | nového zboží založených v pokladně programem |
 
-**Všechno, co malá firma potřebuje, napojené dohromady:** appka pro firmu a zaměstnance (směny, výměny, docházka, podklady pro účetního) · weby a e-shopy napojené na sklad · automatizace (faktury, objednávky, dopravci, platby) · aplikace na míru.
+**Všechno, co malá firma potřebuje, napojené dohromady:** aplikace na míru pro cokoli (pro zaměstnance, zákazníky i vlastní provoz, klidně s AI) · weby a e-shopy napojené na sklad · automatizace (faktury, objednávky, dopravci, platby).
 
 ---
 
@@ -106,10 +106,10 @@ Každé repo je spustitelná ukázka nad vymyšlenými daty; ostrý kód a data 
 
 <a id="english"></a>
 
-## English · Websites, online shops, staff apps and automation. I build it, connect it and keep it running.
+## English · Websites, online shops, apps and automation. I build it, connect it and keep it running.
 
 I run the operations of two family businesses in workwear and safety footwear (a retail store with an online shop and a
-wholesale company). I built everything they run on every day: from the website to the shift schedule on staff phones to invoices that put goods into stock by themselves.
+wholesale company). I built everything they run on every day: from the website to apps for staff to invoices that put goods into stock by themselves.
 More at [jaroslavvelek.cz/en](https://jaroslavvelek.cz/en/).
 
 **→ Tell me what you need: [jaravelin@gmail.com](mailto:jaravelin@gmail.com?subject=Project%20enquiry)** — I'll reply
