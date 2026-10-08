@@ -18,6 +18,17 @@ z toho, co je skladem u nás nebo u výrobce.
   <img src="img/eshop-mobil.png" width="23%" alt="E-shop na mobilu">
 </p>
 
+## Interní appka: Mzdy a plánovač směn
+
+Výplaty podle českých zákonů, výplatní pásky, podklady pro účetní a rozpis směn, který se jedním klikem
+převede do docházky. Na snímcích je [ukázková verze](https://github.com/jaravelin-dot/payroll-shift-planner)
+s vymyšlenou firmou, skutečná data zaměstnanců zůstávají neveřejná.
+
+<p>
+  <img src="img/mzdy-vyplaty.png" width="44%" alt="Přehled výplat za měsíc">
+  <img src="img/mzdy-smeny.png" width="50%" alt="Plánovač směn na týden">
+</p>
+
 ## Ukázky kódu
 
 Každé repo je spustitelná ukázka nad vymyšlenými daty. Ostrý kód a data zůstávají neveřejné.
@@ -46,6 +57,9 @@ Everything below runs in real operation in workwear retail (2 companies, dozens 
 **In production: [www.monterky.eu](https://www.monterky.eu)** (screenshots above) — a WooCommerce shop connected to the store's
 POS and stock, carriers, payments and price-comparison sites, with an AI advisor that picks products from a plain description
 of the job and the customer's size.
+
+**Internal app: payroll and shift planner** (screenshots above, demo company) — Czech payroll, payslips, exports
+for the accountant, and a weekly shift plan that turns into attendance with one click.
 
 **Code samples** — each repo is a runnable demo on made-up data; production code and data stay private:
 [invoice-to-stock](https://github.com/jaravelin-dot/invoice-to-stock) ·
