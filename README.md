@@ -14,8 +14,8 @@ z toho, co je skladem u nás nebo u výrobce.
 ![Úvodní stránka e-shopu s AI poradcem](img/eshop-uvod.png)
 
 <p>
-  <img src="img/eshop-kategorie.png" width="74%" alt="Kategorie pracovní obuvi se stavem skladu u každého produktu">
-  <img src="img/eshop-mobil.png" width="21%" alt="E-shop na mobilu">
+  <img src="img/eshop-kategorie.png" width="71%" alt="Kategorie pracovní obuvi se stavem skladu u každého produktu">
+  <img src="img/eshop-mobil.png" width="23%" alt="E-shop na mobilu">
 </p>
 
 ## Ukázky kódu
