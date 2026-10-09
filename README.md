@@ -5,14 +5,14 @@
 ## Web, e-shop, aplikace i automaty. Postavím, propojím a udržím v chodu.
 
 Ve dvou rodinných firmách s pracovními oděvy a obuví (prodejna s e-shopem a velkoobchod) mám na starosti celý provoz.
-Všechno, na čem firmy denně běží, jsem postavil sám: od webu přes aplikace pro zaměstnance až po faktury, které se naskladní samy. Víc na [jaroslavvelek.cz](https://jaroslavvelek.cz).
+Všechno, na čem firmy denně běží, jsem postavil sám: od webu přes aplikace pro zaměstnance až po faktury, které se naskladní samy.
 
 **→ Napište mi, co potřebujete: [jaravelin@gmail.com](mailto:jaravelin@gmail.com?subject=Popt%C3%A1vka%3A%20web%2C%20aplikace%20nebo%20automatizace)**
 Do 2 pracovních dnů odpovím, jestli to jde a zhruba za kolik.
 
-**Z provozu za posledních 11 týdnů** (22. 7. – 8. 10. 2026):
+**Z provozu za posledních 11 týdnů** (22. 7. – 9. 10. 2026):
 
-| 149 faktur | 4 287 řádků | 703 objednávek | 1 900+ karet |
+| 151 faktur | 4 368 řádků | 725 objednávek | 1 900+ karet |
 |:-:|:-:|:-:|:-:|
 | naskladněných automaticky, bez ručního zásahu | které nikdo nepřepisoval, zhruba 75–150 hodin práce | u 15 dodavatelů připravených automaticky | nového zboží založených v pokladně programem |
 
@@ -30,7 +30,28 @@ výplatní pásky a podklady pro účetního.
 
 <img src="img/mzdy-vyplaty.png" width="70%" alt="Přehled výplat za měsíc">
 
+Od 8. 10. 2026 je v téže appce i **Prodejna**: zaměstnanec má v telefonu nebo na tabletu za pultem sklad podle velikostí
+se skenerem kódů v kameře, tisk cenovky a objednávky z e-shopu k vyzvednutí. Směny jsou barevně podle šablon.
+
+<p>
+  <img src="img/prodejna-rozpis.png" width="30%" alt="Rozpis směn v telefonu: moje směny a kdo je dnes v práci">
+  <img src="img/prodejna-objednavky.png" width="30%" alt="Objednávky z e-shopu k vyzvednutí na prodejně">
+</p>
+
 Na snímcích je ukázková verze s vymyšlenou firmou. [Ukázka kódu: payroll-shift-planner](https://github.com/jaravelin-dot/payroll-shift-planner)
+
+### Objednávky, štítky, svoz a faktury pořád v pěti různých systémech?
+
+**Správa firmy** dá majiteli provoz na jedno místo, v telefonu i na počítači: objednávky z e-shopu, štítek dopravce
+a svoz jedním klikem, faktury od dodavatelů a jejich naskladnění, sklad a cenovky. V provozu od 9. 10. 2026,
+nahradila chatovacího bota a instaluje se jako appka na plochu.
+
+<p>
+  <img src="img/sprava-objednavky.png" width="64%" alt="Správa firmy na počítači: objednávky k vyřízení se štítky a stavem výdejky">
+  <img src="img/sprava-prehled.png" width="27%" alt="Správa firmy v telefonu: přehled se svozem a posledními zásilkami">
+</p>
+
+Na snímcích jsou vymyšlená data, kód appky je neveřejný.
 
 
 ### Přepisujete faktury od dodavatelů do pokladny?
@@ -75,7 +96,8 @@ takže se při změně sortimentu nic nepřepisuje ručně. Na mobilu má zákaz
 
 ### Běhá prodavač do skladu zjistit, jestli máte 43?
 
-Zeptá se telefonu, dostane sklad, cenu i stav objednávky a rovnou vytiskne cenovku.
+Zeptá se telefonu, dostane sklad, cenu i stav objednávky a rovnou vytiskne cenovku. Začínalo to jako chatovací asistent,
+dnes je to součást appky Prodejna.
 
 <img src="img/bot.gif" width="85%" alt="Ukázka: dotaz na sklad v chatu a tisk cenovky">
 
@@ -110,20 +132,20 @@ Každé repo je spustitelná ukázka nad vymyšlenými daty; ostrý kód a data 
 
 I run the operations of two family businesses in workwear and safety footwear (a retail store with an online shop and a
 wholesale company). I built everything they run on every day: from the website to apps for staff to invoices that put goods into stock by themselves.
-More at [jaroslavvelek.cz/en](https://jaroslavvelek.cz/en/).
 
 **→ Tell me what you need: [jaravelin@gmail.com](mailto:jaravelin@gmail.com?subject=Project%20enquiry)** — I'll reply
 within 2 business days with whether it can be done and a rough price. Also open to remote roles.
 
-**From production, last 11 weeks** (22 Jul – 8 Oct 2026):
+**From production, last 11 weeks** (22 Jul – 9 Oct 2026):
 
-| 149 invoices | 4,287 lines | 703 orders | 1,900+ products |
+| 151 invoices | 4,368 lines | 725 orders | 1,900+ products |
 |:-:|:-:|:-:|:-:|
 | put into stock automatically, no manual fixes | nobody had to retype, roughly 75–150 hours | across 15 suppliers, prepared automatically | created in the POS by code |
 
 | Problem | What I built | Code |
 |---|---|---|
-| Shift schedule on paper and in spreadsheets | A staff app: weekly schedule on phones, shift swaps with notifications, attendance, payslips and accountant exports | [payroll-shift-planner](https://github.com/jaravelin-dot/payroll-shift-planner) |
+| Shift schedule on paper and in spreadsheets | A staff app: weekly schedule on phones, shift swaps with notifications, attendance, payslips and accountant exports; from 8 Oct 2026 also stock by size with a camera barcode scanner, price tags and online-shop pickups | [payroll-shift-planner](https://github.com/jaravelin-dot/payroll-shift-planner) |
+| Orders, labels, pickups and invoices in five different systems | An owner app (live from 9 Oct 2026): online-shop orders, carrier labels and pickups in one tap, supplier invoices into stock, stock and price tags, on phone and desktop | private |
 | Retyping supplier invoices into the POS (30–60 min each) | E-mail → PDF/ISDOC parsing → EAN & catalogue matching → stock in the POS, unclear lines go to review | [invoice-to-stock](https://github.com/jaravelin-dot/invoice-to-stock) |
 | Reordering from suppliers size by size | Stock & sales decide what to reorder; a browser robot fills the carts on supplier B2B portals; a human approves | [supplier-order-automation](https://github.com/jaravelin-dot/supplier-order-automation) |
 | An online shop that doesn't know your stock | [www.monterky.eu](https://www.monterky.eu) — WooCommerce wired to POS, stock, carriers, payments, price comparison, with an AI product advisor | [woocommerce-store-showcase](https://github.com/jaravelin-dot/woocommerce-store-showcase) |
