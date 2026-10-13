@@ -4,7 +4,7 @@
 
 ## Web, e-shop, aplikace i automaty. Postavím, propojím a udržím v chodu.
 
-Ve dvou rodinných firmách s pracovními oděvy a obuví (prodejna s e-shopem a velkoobchod) mám na starosti celý provoz.
+Ve dvou rodinných firmách (prodejna s e-shopem a velkoobchod) mám na starosti celý provoz.
 Všechno, na čem firmy denně běží, jsem postavil sám: od webu přes aplikace pro zaměstnance až po faktury, které se naskladní samy.
 
 **→ Napište mi, co potřebujete: [jaravelin@gmail.com](mailto:jaravelin@gmail.com?subject=Popt%C3%A1vka%3A%20web%2C%20aplikace%20nebo%20automatizace)**
@@ -30,7 +30,7 @@ výplatní pásky a podklady pro účetního.
 
 <img src="img/mzdy-vyplaty.png" width="70%" alt="Přehled výplat za měsíc">
 
-Od 8. 10. 2026 je v téže appce i **Prodejna**: zaměstnanec má v telefonu nebo na tabletu za pultem sklad podle velikostí
+Od 8. 10. 2026 je v téže appce i **Prodejna**: zaměstnanec má v telefonu nebo na tabletu za pultem sklad po variantách zboží
 se skenerem kódů v kameře, tisk cenovky a objednávky z e-shopu k vyzvednutí. Směny jsou barevně podle šablon.
 
 <p>
@@ -78,9 +78,9 @@ Nové zboží dostane kartu, sporné řádky přijdou ke kontrole. Ručně to d�
 
 [Ukázka kódu: invoice-to-stock](https://github.com/jaravelin-dot/invoice-to-stock)
 
-### Objednáváte u dodavatelů ručně, velikost po velikosti?
+### Objednáváte u dodavatelů ručně, položku po položce?
 
-Ze skladu a prodejů se spočítá, co a v jakých velikostech doobjednat. Robot to vloží do košíků na B2B portálech
+Ze skladu a prodejů se spočítá, co a v jakých variantách doobjednat. Robot to vloží do košíků na B2B portálech
 dodavatelů a člověk jen zkontroluje a odešle.
 
 [Ukázka kódu: supplier-order-automation](https://github.com/jaravelin-dot/supplier-order-automation)
@@ -88,7 +88,7 @@ dodavatelů a člověk jen zkontroluje a odešle.
 ### Potřebujete e-shop, který ví, co máte skladem?
 
 [www.monterky.eu](https://www.monterky.eu) je napojený na pokladnu a sklad prodejny, dopravce, platby a srovnávače zboží.
-Zákazník nemusí vědět, jak se věc jmenuje: AI poradce Monty vybere podle popisu práce a velikosti.
+Zákazník nemusí vědět, jak se věc jmenuje: AI poradce Monty vybere zboží podle toho, co zákazník popíše.
 
 ![Úvodní stránka e-shopu s AI poradcem](img/eshop-uvod.png)
 
@@ -109,7 +109,7 @@ takže se při změně sortimentu nic nepřepisuje ručně. Na mobilu má zákaz
   <img src="img/agatex-katalog.png" width="48%" alt="Katalog zboží rozdělený do kategorií">
 </p>
 
-### Běhá prodavač do skladu zjistit, jestli máte 43?
+### Běhá prodavač do skladu zjistit, jestli to máte?
 
 Zeptá se telefonu, dostane sklad, cenu i stav objednávky a rovnou vytiskne cenovku. Začínalo to jako chatovací asistent,
 dnes je to součást appky Prodejna.
@@ -145,7 +145,7 @@ Každé repo je spustitelná ukázka nad vymyšlenými daty; ostrý kód a data 
 
 ## English · Websites, online shops, apps and automation. I build it, connect it and keep it running.
 
-I run the operations of two family businesses in workwear and safety footwear (a retail store with an online shop and a
+I run the operations of two family businesses (a retail store with an online shop and a
 wholesale company). I built everything they run on every day: from the website to apps for staff to invoices that put goods into stock by themselves.
 
 **→ Tell me what you need: [jaravelin@gmail.com](mailto:jaravelin@gmail.com?subject=Project%20enquiry)** — I'll reply
@@ -159,11 +159,11 @@ within 2 business days with whether it can be done and a rough price. Also open 
 
 | Problem | What I built | Code |
 |---|---|---|
-| Shift schedule on paper and in spreadsheets | A staff app: weekly schedule on phones, shift swaps with notifications, attendance, payslips and accountant exports; from 8 Oct 2026 also stock by size with a camera barcode scanner, price tags and online-shop pickups | [payroll-shift-planner](https://github.com/jaravelin-dot/payroll-shift-planner) |
+| Shift schedule on paper and in spreadsheets | A staff app: weekly schedule on phones, shift swaps with notifications, attendance, payslips and accountant exports; from 8 Oct 2026 also stock by product variant with a camera barcode scanner, price tags and online-shop pickups | [payroll-shift-planner](https://github.com/jaravelin-dot/payroll-shift-planner) |
 | Orders, labels, pickups and invoices in five different systems | An owner app (live from 9 Oct 2026): online-shop orders, carrier labels and pickups in one tap, supplier invoices into stock, stock and price tags, on phone and desktop | private |
 | Answering the same kinds of e-mails over and over | The same owner app reads the company mailbox (live from 13 Oct 2026): it sorts incoming mail, looks up the price (with the customer's discount) and availability, and drafts a reply in the company's tone. A human reviews it and sends with one tap; nothing is sent automatically | private |
 | Retyping supplier invoices into the POS (30–60 min each) | E-mail → PDF/ISDOC parsing → EAN & catalogue matching → stock in the POS, unclear lines go to review | [invoice-to-stock](https://github.com/jaravelin-dot/invoice-to-stock) |
-| Reordering from suppliers size by size | Stock & sales decide what to reorder; a browser robot fills the carts on supplier B2B portals; a human approves | [supplier-order-automation](https://github.com/jaravelin-dot/supplier-order-automation) |
+| Reordering from suppliers item by item | Stock & sales decide what to reorder; a browser robot fills the carts on supplier B2B portals; a human approves | [supplier-order-automation](https://github.com/jaravelin-dot/supplier-order-automation) |
 | An online shop that doesn't know your stock | [www.monterky.eu](https://www.monterky.eu) — WooCommerce wired to POS, stock, carriers, payments, price comparison, with an AI product advisor | [woocommerce-store-showcase](https://github.com/jaravelin-dot/woocommerce-store-showcase) |
 | A company website that shows what you sell | [agatex-max.cz](https://agatex-max.cz) — a store website with a 964-model catalogue generated from product data | — |
 | Staff running to the stockroom | A phone assistant for stock, prices and order status, with price-tag printing | [store-assistant-bot](https://github.com/jaravelin-dot/store-assistant-bot) |
