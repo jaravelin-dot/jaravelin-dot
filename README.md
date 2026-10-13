@@ -54,6 +54,21 @@ nahradila chatovacího bota a instaluje se jako appka na plochu.
 Na snímcích jsou vymyšlená data, kód appky je neveřejný.
 
 
+### Odpovídáte pořád dokola na stejné typy e-mailů?
+
+Součástí Správy firmy je i firemní pošta, v provozu od 13. 10. 2026. Appka čte schránku, třídí poptávky, reklamace
+a běžné dotazy a oznámení nebo reklamu schová stranou. U poptávky dohledá cenu (i se slevou zákazníka) a dostupnost
+a napíše hotový návrh odpovědi v tónu firmy. Člověk ho přečte, případně upraví jednou větou a odešle jedním klepnutím.
+**Sama nic neodesílá.** Nový e-mail jde zadat i jednou větou a appka z ní připraví návrh.
+
+<p>
+  <img src="img/sprava-maily.png" width="64%" alt="Správa firmy na počítači: schránka s poptávkou, reklamací a dotazem, u dvou je připravená odpověď">
+  <img src="img/sprava-maily-detail.png" width="27%" alt="Správa firmy v telefonu: poptávka s dohledanou cenou a dostupností a navržená odpověď k odeslání">
+</p>
+
+Na snímcích jsou vymyšlené e-maily a firmy.
+
+
 ### Přepisujete faktury od dodavatelů do pokladny?
 
 Faktura přijde e-mailem, automat ji přečte (PDF i ISDOC), spáruje položky s katalogem podle EAN a zboží naskladní.
@@ -146,6 +161,7 @@ within 2 business days with whether it can be done and a rough price. Also open 
 |---|---|---|
 | Shift schedule on paper and in spreadsheets | A staff app: weekly schedule on phones, shift swaps with notifications, attendance, payslips and accountant exports; from 8 Oct 2026 also stock by size with a camera barcode scanner, price tags and online-shop pickups | [payroll-shift-planner](https://github.com/jaravelin-dot/payroll-shift-planner) |
 | Orders, labels, pickups and invoices in five different systems | An owner app (live from 9 Oct 2026): online-shop orders, carrier labels and pickups in one tap, supplier invoices into stock, stock and price tags, on phone and desktop | private |
+| Answering the same kinds of e-mails over and over | The same owner app reads the company mailbox (live from 13 Oct 2026): it sorts incoming mail, looks up the price (with the customer's discount) and availability, and drafts a reply in the company's tone. A human reviews it and sends with one tap; nothing is sent automatically | private |
 | Retyping supplier invoices into the POS (30–60 min each) | E-mail → PDF/ISDOC parsing → EAN & catalogue matching → stock in the POS, unclear lines go to review | [invoice-to-stock](https://github.com/jaravelin-dot/invoice-to-stock) |
 | Reordering from suppliers size by size | Stock & sales decide what to reorder; a browser robot fills the carts on supplier B2B portals; a human approves | [supplier-order-automation](https://github.com/jaravelin-dot/supplier-order-automation) |
 | An online shop that doesn't know your stock | [www.monterky.eu](https://www.monterky.eu) — WooCommerce wired to POS, stock, carriers, payments, price comparison, with an AI product advisor | [woocommerce-store-showcase](https://github.com/jaravelin-dot/woocommerce-store-showcase) |
