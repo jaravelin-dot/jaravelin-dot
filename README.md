@@ -7,7 +7,7 @@
 Ve dvou rodinných firmách (prodejna s e-shopem a velkoobchod) mám na starosti celý provoz.
 Všechno, na čem firmy denně běží, jsem postavil sám: od webu přes aplikace pro zaměstnance až po faktury, které se naskladní samy.
 
-**→ Napište mi, co potřebujete: [jaravelin@gmail.com](mailto:jaravelin@gmail.com?subject=Popt%C3%A1vka%3A%20web%2C%20aplikace%20nebo%20automatizace)**
+**→ Napište mi, co potřebujete: [hi@jaroslavvelek.cz](mailto:hi@jaroslavvelek.cz?subject=Popt%C3%A1vka%3A%20web%2C%20aplikace%20nebo%20automatizace)**
 Do 2 pracovních dnů odpovím, jestli to jde a zhruba za kolik.
 
 **Z provozu za posledních 11 týdnů** (22. 7. – 9. 10. 2026):
@@ -134,7 +134,7 @@ na plochu jako běžná aplikace. [Vyzkoušet AJ trenéra](https://aj-trener.ver
 2. **Do 2 pracovních dnů odpovím**, jestli to jde a zhruba za kolik.
 3. **Postavím to a nasadím**, na vašich datech a s vašimi systémy. Údržbu domluvíme předem.
 
-**[Napsat e-mail →](mailto:jaravelin@gmail.com?subject=Popt%C3%A1vka%3A%20web%2C%20aplikace%20nebo%20automatizace)**
+**[Napsat e-mail →](mailto:hi@jaroslavvelek.cz?subject=Popt%C3%A1vka%3A%20web%2C%20aplikace%20nebo%20automatizace)**
 
 <sub>Pro techniky: Python, PHP/WooCommerce, TypeScript, React, Cloudflare Workers + D1, Playwright, Claude API, SQLite, REST API pokladen a dopravců.
 Každé repo je spustitelná ukázka nad vymyšlenými daty; ostrý kód a data zůstávají neveřejné.</sub>
@@ -148,7 +148,7 @@ Každé repo je spustitelná ukázka nad vymyšlenými daty; ostrý kód a data 
 I run the operations of two family businesses (a retail store with an online shop and a
 wholesale company). I built everything they run on every day: from the website to apps for staff to invoices that put goods into stock by themselves.
 
-**→ Tell me what you need: [jaravelin@gmail.com](mailto:jaravelin@gmail.com?subject=Project%20enquiry)** — I'll reply
+**→ Tell me what you need: [hi@jaroslavvelek.cz](mailto:hi@jaroslavvelek.cz?subject=Project%20enquiry)** — I'll reply
 within 2 business days with whether it can be done and a rough price. Also open to remote roles.
 
 **From production, last 11 weeks** (22 Jul – 9 Oct 2026):
